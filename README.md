@@ -122,6 +122,8 @@ npm install @prisma/client@7.10.1 @prisma/adapter-mariadb mariadb dotenv
 
 npx prisma init --datasource-provider mysql --output ../src/generated/prisma
 
+write in prisma file  then .env file for connection with database
+
 npx prisma validate
 
 npx prisma generate
