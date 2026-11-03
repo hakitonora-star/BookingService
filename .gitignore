@@ -1,5 +1,20 @@
+# Dependencies
 node_modules/
+
+# Build output
 dist/
+
+# Environment secrets
 .env
+.env.*
+
+# Logs
 logs/
-/src/generated/prisma
+
+# AI tools - local configuration
+.agents/
+.claude/
+.windsurf/
+
+# Generated Prisma client (if generated here)
+/src/generated/prisma/
