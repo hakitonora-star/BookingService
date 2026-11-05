@@ -138,6 +138,6 @@ export class NotImplementedError implements AppError {
     constructor(message: string) {
         this.statusCode = 501;
         this.message = message;
-        this.name = "NotImplementedError";
+        this.name = "NOTImplementedError";
     }
 }
